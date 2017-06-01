@@ -12,6 +12,7 @@
 		75601D721EDFDBCB00754C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75601D701EDFDBCB00754C5E /* Main.storyboard */; };
 		75601D741EDFDBCB00754C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75601D731EDFDBCB00754C5E /* Assets.xcassets */; };
 		75601D771EDFDBCB00754C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75601D751EDFDBCB00754C5E /* LaunchScreen.storyboard */; };
+		75601D7F1EDFDEB000754C5E /* CollectionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75601D7E1EDFDEB000754C5E /* CollectionTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		75601D731EDFDBCB00754C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75601D761EDFDBCB00754C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75601D781EDFDBCB00754C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75601D7E1EDFDEB000754C5E /* CollectionTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				75601D6C1EDFDBCB00754C5E /* AppDelegate.swift */,
 				75601D6E1EDFDBCB00754C5E /* ViewController.swift */,
+				75601D7E1EDFDEB000754C5E /* CollectionTableCell.swift */,
 				75601D701EDFDBCB00754C5E /* Main.storyboard */,
 				75601D731EDFDBCB00754C5E /* Assets.xcassets */,
 				75601D751EDFDBCB00754C5E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75601D7F1EDFDEB000754C5E /* CollectionTableCell.swift in Sources */,
 				75601D6F1EDFDBCB00754C5E /* ViewController.swift in Sources */,
 				75601D6D1EDFDBCB00754C5E /* AppDelegate.swift in Sources */,
 			);
